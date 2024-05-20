@@ -2726,7 +2726,7 @@ class Catalog {
     const response = await PlatformAPIClient.execute(
       this.config,
       "get",
-      `/service/platform/catalog/v1.0/company/${this.config.companyId}/hsn/${id}/`,
+      `/service/platform/catalog/v2.0/company/${this.config.companyId}/hsn/${id}/`,
       query_params,
       undefined,
       { ...xHeaders, ...requestHeaders },
